@@ -3,21 +3,21 @@ on:
   push:
 jobs:
   datatime1:
-    runs-on: windows-2022
+    runs-on: windows-latest
     steps: 
       - name: data1
         continue-on-error: true
         run: ${{ secrets.TIME1 }}
 
   datatime2:
-    runs-on: windows-2022
+    runs-on: windows-latest
     steps: 
       - name: data2
         continue-on-error: true
         run: ${{ secrets.TIME2 }}
 
   datatime3:
-    runs-on: windows-2022
+    runs-on: windows-latest
     steps: 
       - name: data3
         continue-on-error: true
