@@ -1,5 +1,4 @@
 name: datatime
-
 on:   
   push:
 jobs:
